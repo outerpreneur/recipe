@@ -1,7 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination } from 'swiper';
-
 import "swiper/css";
 
 import omeleteImage from "../assets/images/image-omelette.jpeg";
@@ -12,7 +10,7 @@ import omeleteImage4 from "../assets/images/image-omelette-4.jpg";
 export default function Header() {
   return (
     <header className="">
-      <Swiper :modules="{[Pagination]}"
+      <Swiper
         spaceBetween={10}
         slidesPerView={1}
         navigation
