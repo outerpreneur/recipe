@@ -1,13 +1,11 @@
-import "./App.css";
 import "./output.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Card from "./components/Card";
+import "swiper/swiper-bundle.css";
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <Main />
+    <div className="bg-[#F3E5D7] flex items-center md:py-[124px]">
+      <Card />
     </div>
   );
 }

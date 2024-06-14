@@ -1,9 +1,55 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination } from 'swiper';
+
+import "swiper/css";
+
+import omeleteImage from "../assets/images/image-omelette.jpeg";
+import omeleteImage2 from "../assets/images/image-omelette-2.jpg";
+import omeleteImage3 from "../assets/images/image-omelette-3.jpg";
+import omeleteImage4 from "../assets/images/image-omelette-4.jpg";
 
 export default function Header() {
   return (
-    <header className="bg-green-500">
-      <img src="https://via.placeholder.com/150" alt="logo" />
+    <header className="">
+      <Swiper :modules="{[Pagination]}"
+        spaceBetween={10}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+      >
+        <SwiperSlide>
+          <img
+            src={omeleteImage}
+            className="rounded-2xl h-[300px] w-fu object-cover"
+            alt="logo"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={omeleteImage2}
+            className="rounded-2xl h-[300px] w-full object-cover"
+            alt="logo"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={omeleteImage3}
+            className="rounded-2xl h-[300px] w-full object-cover"
+            alt="logo"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={omeleteImage4}
+            className="rounded-2xl h-[300px] w-full object-cover"
+            alt="logo"
+          />
+        </SwiperSlide>
+      </Swiper>
     </header>
   );
 }
