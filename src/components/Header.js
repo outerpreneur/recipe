@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 
 import omeleteImage from "../assets/images/image-omelette.jpeg";
@@ -11,6 +12,7 @@ export default function Header() {
   return (
     <header className="">
       <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={10}
         slidesPerView={1}
         navigation
