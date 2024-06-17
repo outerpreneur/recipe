@@ -25,28 +25,28 @@ export default function Header() {
           <img
             src={omeleteImage}
             className="rounded-2xl h-[300px] w-fu object-cover"
-            alt="logo"
+            alt="logo-1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={omeleteImage2}
             className="rounded-2xl h-[300px] w-full object-cover"
-            alt="logo"
+            alt="logo-2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={omeleteImage3}
             className="rounded-2xl h-[300px] w-full object-cover"
-            alt="logo"
+            alt="logo-3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={omeleteImage4}
             className="rounded-2xl h-[300px] w-full object-cover"
-            alt="logo"
+            alt="logo-4"
           />
         </SwiperSlide>
       </Swiper>
