@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/recipe/static/css/main.644c0ffa.css",
+    "main.js": "/recipe/static/js/main.fb72d8df.js",
+    "static/js/453.e9d4eb2f.chunk.js": "/recipe/static/js/453.e9d4eb2f.chunk.js",
+    "static/media/image-omelette-3.jpg": "/recipe/static/media/image-omelette-3.b47b949cd6c621223a88.jpg",
+    "static/media/image-omelette-2.jpg": "/recipe/static/media/image-omelette-2.753ce8619ed462eacdb8.jpg",
+    "static/media/Outfit-VariableFont_wght.ttf": "/recipe/static/media/Outfit-VariableFont_wght.00c2ed1a3bf798b0da27.ttf",
+    "static/media/YoungSerif-Regular.ttf": "/recipe/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
+    "static/media/image-omelette.jpeg": "/recipe/static/media/image-omelette.98c8ed59c5ae707e58ea.jpeg",
+    "static/media/image-omelette-4.jpg": "/recipe/static/media/image-omelette-4.b626f22677b294f03387.jpg",
+    "index.html": "/recipe/index.html",
+    "main.644c0ffa.css.map": "/recipe/static/css/main.644c0ffa.css.map",
+    "main.fb72d8df.js.map": "/recipe/static/js/main.fb72d8df.js.map",
+    "453.e9d4eb2f.chunk.js.map": "/recipe/static/js/453.e9d4eb2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.644c0ffa.css",
+    "static/js/main.fb72d8df.js"
+  ]
+}
